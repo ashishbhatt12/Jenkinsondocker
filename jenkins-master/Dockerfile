@@ -1,4 +1,4 @@
-FROM ashishbhatt12/devops-jenkins:mobile
+FROM jenkinsci/jenkins
 MAINTAINER Ashish Bhatt
 
 # COPY plugins.txt /plugins.txt
