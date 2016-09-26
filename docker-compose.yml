@@ -1,9 +1,11 @@
 jenkinsdata:
-    image: ashishbhatt12/data-volume-container
+    #image: ashishbhatt12/data-volume-container
     build: jenkins-data
+    container_name: ci_jenkinsdata
 jenkinsmaster:
-    image: ashishbhatt12/jenkins-master
+    #image: ashishbhatt12/jenkins-master
     build: jenkins-master
+    container_name: ci_jenkinsmaster
     volumes_from: 
         - jenkinsdata
     ports:

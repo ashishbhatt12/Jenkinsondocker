@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins
+FROM jenkinsci/jenkins:latest
 MAINTAINER Ashish Bhatt
 
 # COPY plugins.txt /plugins.txt

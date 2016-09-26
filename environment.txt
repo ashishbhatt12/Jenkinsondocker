@@ -1,0 +1,7 @@
+AWS_ACCESS_KEY_ID=AKIAJEERCM5RPVBI7ULA
+AWS_SECRET_ACCESS_KEY=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
+AWS_DEFAULT_REGION=us-west-2
+BACKUP_NAME=docker-jenkins-data-backup.2016-09-26-07-07-59
+PATHS_TO_BACKUP=/var/jenkins_home
+S3_BUCKET_NAME=dockerised-jenkins-backup
+RESTORE=true
